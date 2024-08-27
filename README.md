@@ -34,7 +34,7 @@ My pride and joy, and also the bane of my existence. Used to generate boggle boa
 Also generates list of possible feeder words that, when arranged in order from shortest to longest, spell out BOLLOS with their first letters, and BOGGLE with their last, with lengths 3-8. Previous versions of the code included code to test different combinations of feeder words with the board generation code. This code has been commented out (the recursion to generate boards takes a really really long time, and every tested combination of feeders generates at least one board).
 
 ## universefile.py
-Generates large text files with list of "Earths" 0-9999999, with facts about known universes filled, and "Uncharted" for all other universes. Was used for several different generations (the results of which are all included in the repository) including a logarithmicly grouped list, a list sorted in groups of 100 Earths, and one very long, non-grouped list. Used to create filler file for Google Drive in [Rekam's Login](https://www.vthunt.com/past-hunts/hunt-2023/rekams-login). 
+Generates large text files with list of "Earths" 0-9999999, with facts about known universes filled, and "Uncharted" for all other universes. Was used for several different generations (the results of which are all included in the repository) including a logarithmicly grouped list, a list sorted in groups of 100 Earths, and one very long, non-grouped list (not included because it exceeds file size limit). Used to create filler file for Google Drive in [Rekam's Login](https://www.vthunt.com/past-hunts/hunt-2023/rekams-login). 
 
 ## words_states.py
 Returns a list of words that can be created using only U.S. state abbreviations.
@@ -44,7 +44,7 @@ Returns a list of words that can be created using only U.S. state abbreviations.
 List of 3731 English words with part of speech, definition, and link to dictionary.com page.
 
 ## words.txt
-Big list of English words.
+Big list of 466,550 English words.
 
 ## commonwords.txt
 List of 10,000 most commonly used English words.
